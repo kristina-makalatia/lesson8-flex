@@ -1,0 +1,38 @@
+/*background image example*/
+.bg-image {
+	background-image: url(../images/photographer.jpg);
+	height: 500px;
+	width: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*section#1*/
+.section-bg {
+	background-color:#363E97; 
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+.left-block {
+	width: 570px;
+	height: 320px;
+	background-color: lightblue;
+	/*margin-right: 30px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right-block {
+	width: 570px;
+	height: 320px;
+	background-color: red;
+}
+.block-wraper {
+	display: flex;
+	justify-content: space-between;
+}
